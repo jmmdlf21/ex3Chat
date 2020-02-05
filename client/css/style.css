@@ -1,0 +1,67 @@
+/* reset CSS */
+
+body, header, main, section, article, footer, p, img, span, div, form, label, input, ul , li, button {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	margin: 0 auto;
+	width: 90%;
+	min-width: 1024px;
+	
+}
+
+main {
+	width: 80%;
+	background-color: #eee;
+}
+
+.fenetre {
+	width: 80%;
+	height: 200px;
+	background-color: rgba(255, 255, 255, 0.76);
+	border: 1px solid black;
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+
+#image {
+	width: 80%;
+	border: 1px solid black;
+	margin: 40px 0 0 10%;
+}
+
+ul {
+	padding: 20px 40px;
+}
+
+li {
+	list-style: none;
+}
+
+form {
+	margin-left: 10%;
+}
+
+form input:first-of-type {
+	width: 60%;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.76);
+	margin-bottom: 40px;
+	font-size: 1.2em;
+}
+
+#soumettre {
+	width: 25%;
+	padding: 6px 0 6px;
+	font-size: 1.2em;
+	float: right;
+	margin-right: 11%;
+	
+}
+
+.message {
+	display: inline;
+}
